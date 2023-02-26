@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Hind Madurai', sans-serif;
-    background-color: #4EBFBF;
+    box-sizing: border-box;
     color: #223D40;
 
 }
@@ -19,14 +19,54 @@ a:active {
     font-size:small;
 }
 
+header{
+    background-color: #4EBFBF;
+}
+
+body{
+    background-color: #4EBFBF;
+}
+
+.container{
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+/* input{
+    width: 500px;
+    height: 100px;
+    background: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    gap: 5px;
+} */
+
+
+
+form {
+    text-align: center;
+    border-width: 5px;
+    border-radius: 1% 1% 1% 1%;
+    border-color: #223D40;
+    background-color:#BFBFBF;
+}
 
 
 
 
 .btn{
+    height: 30px;
+    width: 100px;
     background-color: #BFBFBF;
+    border-color: #223D40;
     color: #223D40;
-    border: none;
+    align-items: center center;
+    padding: 0px 5px 0px 0px;
 }
 
 .d-flex{
